@@ -11,5 +11,8 @@ h2 {
     color:rgb(29, 29, 106);
 }
 ul {
-    color:rgb(67, 67, 12);
+    color:RGB(67, 67, 12);
+}
+# {
+ font-family: 'Montserrat', sans-serif;
 }
