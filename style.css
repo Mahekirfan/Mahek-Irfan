@@ -1,52 +1,98 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #f5f5f5;
     color: #333;
     margin: 0;
-    padding: 0;
-}
-
-.container {
-    max-width: 800px;
-    margin: 20px auto;
-    background-color: #fff;
     padding: 20px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-}
-
-header {
-    text-align: center;
 }
 
 h1 {
     font-size: 36px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-family: 'Arapey', serif;
+    text-align: center;
 }
 
 h2 {
     font-size: 24px;
+    margin-top: 20px;
     margin-bottom: 10px;
     color: #2ecc71;
 }
 
-p, ul, ol {
+p {
     font-size: 16px;
     margin-bottom: 15px;
 }
 
 ul, ol {
     padding-left: 20px;
+    margin-bottom: 15px;
 }
 
 a {
     color: #3498db;
+    text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
 }
 
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h3 {
+    font-size: 20px;
+    margin-top: 15px;
+    color: #555;
+}
+
+h4 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #777;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Other section */
+.other h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #555;
+}
+
+
+.other h3 a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.other h3 a:hover {
+    text-decoration: underline;
+}
 
 
