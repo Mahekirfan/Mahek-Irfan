@@ -8,7 +8,7 @@ body {
 
 h1 {
     font-family: 'Tahoma', sans-serif;
-    font-size: 28px;
+    font-size: 40px;
     font-weight: bold;
     color: RGB(12, 27, 41);
     margin-bottom: 15px;
@@ -26,8 +26,8 @@ h2 {
 h3 {
     font-family: 'Calibri', sans-serif;
     font-size: 20px;
-    font-weight: bold;
-    color:rgb(12, 27, 41);
+    font-weight: normal;
+    color:RGB(12, 27, 41);
     margin-bottom: 8px;
 }
 
