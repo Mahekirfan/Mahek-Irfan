@@ -15,14 +15,14 @@ header {
 }
 
 h1 {
-    font-size: 32px; /* Decreased font size */
+    font-size: 28px; /* Decreased font size */
     color: #333;
     margin-bottom: 15px; /* Reduced margin */
 }
 
 h2 {
-    font-size: 24px; /* Decreased font size */
-    color: #007bff;
+    font-size: 20px; /* Decreased font size */
+    color: #004080; /* Darker blue color */
     margin-bottom: 10px; /* Reduced margin */
 }
 
@@ -33,27 +33,27 @@ table {
     margin-bottom: 20px;
     background-color: #fff; /* White table background */
     border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
 }
 
 th, td {
-    padding: 10px; /* Adjusted padding */
+    padding: 8px; /* Adjusted padding */
     border-bottom: 1px solid #dee2e6;
     text-align: left;
     font-size: 14px; /* Decreased font size */
 }
 
 th {
-    background-color: #007bff; /* Dark blue */
+    background-color: #004080; /* Darker blue color */
     color: #ffffff; /* White text */
     font-weight: bold; /* Bold text */
 }
 
 /* Highlighted section styles */
 section {
-    padding: 20px; /* Adjusted padding */
+    padding: 15px; /* Adjusted padding */
     margin-bottom: 20px; /* Reduced margin */
     background-color: #ffffff; /* White background */
     border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
 }
