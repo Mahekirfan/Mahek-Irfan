@@ -11,49 +11,50 @@ body {
 /* Header styles */
 header {
     text-align: left;
-    margin-bottom: 20px; /* Reduced margin */
+    margin-bottom: 10px; /* Reduced margin */
 }
 
 h1 {
     font-size: 28px; /* Decreased font size */
     color: #333;
-    margin-bottom: 15px; /* Reduced margin */
+    margin-bottom: 10px; /* Reduced margin */
 }
 
 h2 {
     font-size: 20px; /* Decreased font size */
-    color: #004080; /* Darker blue color */
-    margin-bottom: 10px; /* Reduced margin */
+    color: #00264d; /* Darker blue color */
+    margin-bottom: 8px; /* Reduced margin */
 }
 
 /* Table styles */
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-bottom: 20px;
+    margin-bottom: 10px; /* Reduced margin */
     background-color: #fff; /* White table background */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1); /* Soft shadow */
 }
 
 th, td {
-    padding: 8px; /* Adjusted padding */
+    padding: 6px; /* Adjusted padding */
     border-bottom: 1px solid #dee2e6;
     text-align: left;
     font-size: 14px; /* Decreased font size */
+    color: #333; /* Darker text color */
 }
 
 th {
-    background-color: #004080; /* Darker blue color */
+    background-color: #00264d; /* Darker blue color */
     color: #ffffff; /* White text */
     font-weight: bold; /* Bold text */
 }
 
 /* Highlighted section styles */
 section {
-    padding: 15px; /* Adjusted padding */
+    padding: 10px; /* Adjusted padding */
     margin-bottom: 20px; /* Reduced margin */
     background-color: #ffffff; /* White background */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1); /* Soft shadow */
 }
