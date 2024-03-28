@@ -1,9 +1,11 @@
 /* Reset default browser styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-color: #f9f9f9;
-    padding: 20px;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
 }
 
 /* Header styles */
@@ -14,7 +16,7 @@ header {
 
 h1 {
     font-size: 36px;
-    color: #333;
+    color: #007bff;
     margin-bottom: 10px;
 }
 
@@ -26,7 +28,6 @@ h2 {
 
 p {
     font-size: 18px;
-    color: #555;
     margin-bottom: 20px;
 }
 
@@ -42,57 +43,45 @@ a:hover {
 
 /* Section styles */
 section {
+    padding: 30px;
     margin-bottom: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Table styles */
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 th, td {
-    border: 1px solid #ddd;
-    padding: 15px;
+    padding: 12px;
+    border-bottom: 1px solid #dee2e6;
     text-align: left;
 }
 
 th {
-    background-color: #f2f2f2;
-    color: #007bff;
+    background-color: #007bff;
+    color: #ffffff;
 }
 
 /* Tool section styles */
-.tool-section {
-    border-bottom: 2px solid #007bff;
-    padding-bottom: 20px;
-    margin-bottom: 40px;
+#education, #experience, #skills {
+    background-color: #f8f9fa;
 }
 
-.tool-header {
-    font-size: 24px;
-    color: #007bff;
-    margin-bottom: 10px;
+/* Highlighted section styles */
+#education {
+    background-color: #d1ecf1;
 }
 
-.tool-table {
-    margin-bottom: 20px;
+#experience {
+    background-color: #bee5eb;
 }
 
-/* Other section styles */
-.other-section {
-    border-bottom: 2px solid #007bff;
-    padding-bottom: 20px;
-    margin-bottom: 40px;
-}
-
-.other-header {
-    font-size: 24px;
-    color: #007bff;
-    margin-bottom: 10px;
-}
-
-.other-table {
-    margin-bottom: 20px;
+#skills {
+    background-color: #a7d9e2;
 }
