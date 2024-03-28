@@ -64,15 +64,23 @@ th {
 }
 
 /* Tool section styles */
-#tools ul {
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
+.tool-header {
+    font-size: 20px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.tool-table {
+    margin-bottom: 20px;
 }
 
 /* Other section styles */
-#other ul {
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
+.other-header {
+    font-size: 20px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.other-table {
+    margin-bottom: 20px;
 }
