@@ -11,19 +11,19 @@ body {
 /* Header styles */
 header {
     text-align: left;
-    margin-bottom: 30px;
+    margin-bottom: 20px; /* Reduced margin */
 }
 
 h1 {
-    font-size: 36px; /* Increased font size */
+    font-size: 32px; /* Decreased font size */
     color: #333;
-    margin-bottom: 20px;
+    margin-bottom: 15px; /* Reduced margin */
 }
 
 h2 {
-    font-size: 28px; /* Increased font size */
+    font-size: 24px; /* Decreased font size */
     color: #007bff;
-    margin-bottom: 15px;
+    margin-bottom: 10px; /* Reduced margin */
 }
 
 /* Table styles */
@@ -37,9 +37,10 @@ table {
 }
 
 th, td {
-    padding: 15px; /* Increased padding */
+    padding: 10px; /* Adjusted padding */
     border-bottom: 1px solid #dee2e6;
     text-align: left;
+    font-size: 14px; /* Decreased font size */
 }
 
 th {
@@ -50,8 +51,8 @@ th {
 
 /* Highlighted section styles */
 section {
-    padding: 30px;
-    margin-bottom: 30px;
+    padding: 20px; /* Adjusted padding */
+    margin-bottom: 20px; /* Reduced margin */
     background-color: #ffffff; /* White background */
     border-radius: 10px; /* Rounded corners */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
