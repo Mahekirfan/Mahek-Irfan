@@ -3,6 +3,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f9f9f9;
+    background-image: url('texture.jpg'); /* Add your texture image URL */
     padding: 20px;
 }
 
@@ -26,7 +27,7 @@ h2 {
 
 p {
     font-size: 18px;
-    color: #555;
+    color: #333;
     margin-bottom: 20px;
 }
 
@@ -59,13 +60,19 @@ th, td {
 }
 
 th {
-    background-color: #f2f2f2;
-    color: #007bff;
+    background-color: #007bff;
+    color: #fff;
 }
 
 /* Tool section styles */
+.tool-section {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
 .tool-header {
-    font-size: 20px;
+    font-size: 24px;
     color: #007bff;
     margin-bottom: 10px;
 }
@@ -75,8 +82,14 @@ th {
 }
 
 /* Other section styles */
+.other-section {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
 .other-header {
-    font-size: 20px;
+    font-size: 24px;
     color: #007bff;
     margin-bottom: 10px;
 }
